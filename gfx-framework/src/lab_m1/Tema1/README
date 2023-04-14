@@ -1,0 +1,27 @@
+# 332 CA
+# Chelcea Claudiu-Marian
+# claudiu.chelcea@stud.acs.upb.ro / claudiuchelcea01@gmail.com
+
+Duck Hunt game:
+
+The duck spawns below the ground in random spawn point and with random angles.
+
+You can shoot it.
+Every shot reduces your number of total bullets by 1.
+If you shoot the bird, the bird goes down and dies, increasing your progress bar.
+You can't shoot the bird if:
+    * it is evading (going up because you didn't kill it in the time allocated)
+    * it is below the ground (logically)
+    * the game is paused (press P at any time to press the game)
+    * the bird is rotating in the middle of the screen (meaning you lost all your lives and lost OR you completed your progress bar)
+
+After a time, the bird will evade, reducing your total number of lives by 1.
+Also, if you shoot all your 3 bullets and miss, it will also evade.
+
+If the bird is going down / up (evading or dying), you can no longer shoot almost anything, shooting won't have an impact.
+You can still shoot the ground (thought it would be fun from a game design perspective, although there are no fun things
+to shoot (i thought about chickens like in CS:GO or interactive stuff to shoot with your bullets until the next level starts - 
+the next duck is spawned)).
+
+Spawning a new bird after one disappears (either evades or is killed) - it is spawned at a random spawn point.
+After each 5 birds, the speed is increased.
